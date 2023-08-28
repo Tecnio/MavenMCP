@@ -3,7 +3,7 @@
 clear
 echo "Installing MavenMCP"
 
-# 1.12.1 Version
+# 1.8.8 Version
 MCP_LK="http://www.modcoderpack.com/files/mcp918.zip"
 MC_VEV="1.8.8"
 
@@ -22,7 +22,7 @@ rm -f mcp.zip
 
 # Executing MCP
 echo "Executing MCP..."
-python ./runtime/decompile.py %*
+python2 ./runtime/decompile.py %*
 cd ..
 
 # Copy the sources from temp to main
@@ -39,7 +39,7 @@ mkdir workspace/
 cp -r tmp/jars/ workspace/
 
 # Clean Up
-ECHO "Clean Up..."
+echo "Clean Up..."
 rm -rf tmp
 
 echo "Done."
