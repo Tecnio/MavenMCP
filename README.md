@@ -1,6 +1,6 @@
 # Maven MCP
 
-Maven MCP is a framework for using MCP with maven. Previous MavenMCP used Strezzed/strezz-central but was taken down and a new account named Mason Khonsari which is most likely Kant taking control of the account so in order to not have any security risks I have forked MavenMCP and migrated it to Hexeptions repos.
+Maven MCP is a framework for using MCP with maven.
 
 ## Supported Versions 
 
